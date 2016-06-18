@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  width: 600px; 
+  margin: 50px auto;
+  /*background-color: #cdcdcd;
+  font-family: 'Tangerine', serif;
+  background: url(http://subtlepatterns.com/patterns/symphony.png);*/
+}
+
+h1{
+    text-shadow: 2px 2px 2px #fff;
+    font-family: 'Tangerine', serif, 'Cardo';
+    font-style: italic;
+    margin: 10px auto;
+    font-size: 4em;
+    color: #505;
+}
+
+p {
+  font-family: 'Radley', serif;
+  font-size: 1.25em;
+  text-align: centre;
+}
+
+.quote {
+  font-family: 'Cardo', serif;
+  font-size: 1.5em;
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #efefef;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.9);;
+  border-radius: 20px;
+  color: #000;
+  box-shadow: -10px 10px 20px rgba(100,100,100,.8);;
+}
+
+.author {
+  font-style: italic;
+}
+
+.button {
+  font-family: 'Tangerine', serif;
+  height: 50px;
+  width: 150px;
+  margin: 20px auto;
+  color: rgba(0,0,0,1);
+  background-color: rgba(160,200,160,.8);;
+  text-align: center; 
+  font-size: 40px;
+  border-radius: 15px;
+  box-shadow: -5px 5px 10px rgba(100,100,100,.8);;
+}
