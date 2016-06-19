@@ -1,0 +1,23 @@
+<h1>FreeCodeCamp</h1>
+<main ng-app="PomodoroApp" ng-controller="MainCtrl">
+  <header>
+     <div class="session">
+      <div class="breakCtrl">
+        <p>break length</p>
+        <button ng-click="breakLengthChange(-1)" class="minus">-</button><span class="time">{{breakLength}}</span>
+        <button ng-click="breakLengthChange(1)" class="plus">+</button>
+      </div>
+      <div class="sessionCtrl">
+        <p>session length</p>
+        <button ng-click="sessionLengthChange(-1)" class="minus">-</button><span class="time">{{sessionLength}}</span>
+        <button ng-click="sessionLengthChange(1)" class="plus">+</button>
+      </div>    
+    </div>
+  </header> 
+  <section ng-click="toggleTimer()">
+    <div class="timer">
+      <p class="title">{{sessionName}}</p>
+      <p>{{timeLeft}}</p><span ng-style="{'height':fillHeight, 'background':fillColor }" class="fill"></span>
+    </div>
+  </section>
+</main>
