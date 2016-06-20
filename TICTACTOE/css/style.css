@@ -1,0 +1,126 @@
+html {
+	box-sizing: border-box;
+}
+* {
+	box-sizing: inherit;
+}
+body {
+	background: #fff;
+	color: #ffa;	
+}
+div {
+	padding: 20px;
+	border: 1px solid #ffa;
+	vertical-align: middle;
+	margin: 0 auto;
+	text-align: center;
+}
+.container-fluid {
+    border: none;
+	margin-top: 30px;
+    padding-top: 0;
+	height: 500px;
+}
+.square {
+	width: 500px;
+	height: 500px;
+	border: none;
+	margin: 0 auto;
+	background: #458;
+}
+.col-xs-4 {
+	height: 33.333333333333333333333333333%;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+h2 {
+	color: white;
+
+}
+#top-left {
+	border-top: none;
+	border-left: none;
+}
+#top-middle {
+	border-top: none;
+}
+#top-right {
+	border-top: none;
+	border-right: none;
+}
+#center-left {
+	border-left: none;
+}
+#center-middle {
+
+}
+#center-right {
+	border-right: none;
+}
+#bottom-left {
+	border-left: none;
+	border-bottom: none;
+}
+#bottom-middle {
+	border-bottom: none;
+}
+#bottom-right {
+	border-right: none;
+	border-bottom: none;
+}
+.modal-header,.modal-body {
+    background: #000;
+    border: 1px solid #ffa;
+    color: #fff;
+}
+.modal-dialog {
+    border: transparent;
+}
+.modal-footer {
+    text-align: center;
+    border: transparent;
+}
+.btn {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+hr.top-horizontal, hr.middle-horizontal, hr.bottom-horizontal {
+    display: none;
+    top: 55px;
+    width: 440px;
+    border-top: 3px dotted rgba(255,238,238,0.75);
+    z-index: 100;
+    position: absolute;
+}
+hr.left-vertical, hr.middle-vertical, hr.right-vertical {
+    display: none;
+    -webkit-transform: rotate(-90deg);
+    left: -143px;
+    top: 209px;
+    width: 440px;
+    border-top: 3px dotted rgba(255,238,238,0.75);
+    z-index: 100;
+    position: absolute;
+}
+hr.left-diagonal {
+    display: none;
+    -webkit-transform: rotate(-135deg);
+    top: 55px;
+    left: -225px;
+    width: 607px;
+    border-top: 3px dotted rgba(255,238,238,0.75);
+    z-index: 100;
+    position: absolute;
+}
+hr.right-diagonal {
+    display: none;
+    -webkit-transform: rotate(-45deg);
+    top: 56px;
+    left: -227px;
+    width: 607px;
+    border-top: 3px dotted rgba(255,238,238,0.75);
+    z-index: 100;
+    position: absolute;
+}
